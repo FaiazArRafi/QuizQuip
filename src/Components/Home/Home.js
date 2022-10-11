@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
     const quizzes = useLoaderData();
-    console.log(quizzes)
+    // console.log(quizzes)
 
 
     return (
@@ -21,14 +21,14 @@ const Home = () => {
                         After responding to a question, click on the "Next Question" button at the bottom to go to the next questino. After responding to the 8th question, click on "Close" on the top of the window to exit the quiz. <br /></small></p>
                 </div>
             </div>
-            <div className='grid'>
+            <div className='grid-home'>
                 {
                     quizzes.data.map(quiz => <QuizUI
                         key={quiz.id}
                         quiz={quiz}
                     ></QuizUI>)
-                }
 
+                }
             </div>
         </div >
     );

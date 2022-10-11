@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: skyblue;
-
+    padding: 8px;
 }
 
 .header a {

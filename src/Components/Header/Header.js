@@ -8,9 +8,11 @@ const Header = () => {
             <h2>Quiz Crackers</h2>
             <div>
                 <Link to='/'>Home</Link>
-                <Link to='/quiz'>Quiz</Link>
+                <Link to={`/quiz/${1}}`}>Quiz</Link>
+                <Link to='/statistics'>Statistics</Link>
+                <Link to='/Blog'>Blog</Link>
             </div>
-        </nav>
+        </nav >
     );
 };
 
