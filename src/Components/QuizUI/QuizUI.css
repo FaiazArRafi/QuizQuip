@@ -1,0 +1,12 @@
+.quiz-ui img {
+    width: 18rem;
+}
+
+.quiz-ui {
+    border: 1px solid slategray;
+    border-radius: 10px;
+}
+
+.btn-quiz {
+    width: 100%;
+}
