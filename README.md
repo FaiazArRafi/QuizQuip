@@ -1,8 +1,12 @@
-# Getting Started with QuizQuip Website
+# Project Name : QuizQuip
+
+# Getting Started with "QuizQuip" Website
 
 This website was react-bootstrapped with [Create React App].
+Vanila CSS is also used in the website.
+You can play quiz and read blog in the website.
 
-## Available Feature
+## Available Features
 
 In the project, there are four types of quiz available. You can play quiz ralated with React, Javascipt, CSS and Git . 
 
@@ -19,5 +23,7 @@ You can see total quiz number of each section on a chart.
 ## Blog
 In Blog, you can read three questions with answers about React Router.
 
+## Live Site :
+You can see our site from here: `https://singular-brigadeiros-87d1c2.netlify.app/` 
 
 
