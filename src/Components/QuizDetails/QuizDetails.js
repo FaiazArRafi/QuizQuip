@@ -11,17 +11,16 @@ import './QuizDetails.css'
 const QuizDetails = ({ x, questions }) => {
     const { options, question } = x;
     // console.log(x.correctAnswer)
-    const iconAnswer = (x) => {
-        console.log(x.correctAnswer)
-        return (x.correctAnswer)
+    const iconAnswer = () => {
+        return <p><b>HIiiiiI</b></p>
     }
-    const val = iconAnswer(x.correctAnswer)
+
 
 
     return (
         <div className='options'>
             <h4 style={{ color: 'white' }}>{question}</h4>
-            <FontAwesomeIcon className='icon' onClick={iconAnswer(x)} icon={faEye}>{val}</FontAwesomeIcon>
+            <FontAwesomeIcon className='icon' onClick={iconAnswer} icon={faEye}></FontAwesomeIcon>
             <div className='grid-details'>
                 {
                     options.map(y => <QuizFInal

@@ -5,7 +5,7 @@
     margin: 10px auto;
     background-color: #1e2555;
     padding: 3%;
-    /* position: relative; */
+    position: relative;
 }
 
 .btn-opt {
@@ -30,7 +30,6 @@
 .icon {
     font-size: large;
     color: lightgoldenrodyellow;
-    margin-top: 2rem;
-    /* position: absolute; */
-    margin-left: 90%;
+    position: absolute;
+    left: 60%;
 }
