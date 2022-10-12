@@ -15,3 +15,17 @@
 .header h2 {
     margin-left: 20px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    color: purple;
+}
+
+.header-name {
+    color: purple;
+    font-weight: 500;
+}
