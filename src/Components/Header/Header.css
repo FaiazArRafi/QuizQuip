@@ -29,3 +29,29 @@
     color: purple;
     font-weight: 500;
 }
+
+
+@media screen and (min-width:991px) and (max-width:1199px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: skyblue;
+        padding: 8px;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .routes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

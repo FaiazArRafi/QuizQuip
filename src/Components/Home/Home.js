@@ -9,7 +9,7 @@ const Home = () => {
 
 
     return (
-        <div>
+        <div className='alignment'>
             <div className='home-info'>
                 <img src="https://thumbs.dreamstime.com/b/quiz-time-concept-words-made-alphabet-letters-colorful-notes-178911059.jpg" alt="quiz pic" />
                 <div className='info'>

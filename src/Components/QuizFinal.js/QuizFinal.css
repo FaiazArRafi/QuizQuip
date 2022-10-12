@@ -1,0 +1,25 @@
+.btn-opt {
+    width: 18rem;
+    color: white;
+    border-radius: 15px;
+    background-color: #481449;
+    padding: 1rem;
+}
+
+.btn-opt:hover {
+    background-color: #4814497b;
+}
+
+
+
+@media screen and (min-width:991px) and (max-width:1199px) {}
+
+@media screen and (max-width:767px) {
+    .btn-opt {
+        width: 18rem;
+        color: white;
+        border-radius: 15px;
+        background-color: #481449;
+        padding: 1rem;
+    }
+}

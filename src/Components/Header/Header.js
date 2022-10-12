@@ -9,7 +9,7 @@ const Header = () => {
                 <img style={{ width: '2rem' }} src={`https://image.winudf.com/v2/image/c2UuZmVvbWVkaWEucXVpemthbXBlbi5mci5saXRlX2ljb25fMTUyODExMzYyN18wODY/icon.png?w=&fakeurl=1`} alt="" />
                 <h2>QuizQuip</h2>
             </div>
-            <div>
+            <div className='routes'>
                 <Link className='header-name' to='/'>Home</Link>
                 <Link className='header-name' to={`/quiz/${1}}`}>Quiz</Link>
                 <Link className='header-name' to='/statistics'>Statistics</Link>

@@ -8,18 +8,6 @@
     position: relative;
 }
 
-.btn-opt {
-    width: 18rem;
-    color: white;
-    border-radius: 15px;
-    background-color: #481449;
-    padding: 1rem;
-}
-
-.btn-opt:hover {
-    background-color: #4814497b;
-}
-
 .grid-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -32,4 +20,26 @@
     color: lightgoldenrodyellow;
     position: absolute;
     left: 60%;
+}
+
+
+@media screen and (min-width:991px) and (max-width:1199px) {}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .grid-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .grid-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 1rem;
+    }
 }
