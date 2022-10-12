@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './Components/Blog/Blog';
-import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
 import Quiz from './Components/Quiz/Quiz';
@@ -37,7 +36,6 @@ function App() {
           path: '/blog',
           element: <Blog></Blog>
         },
-        // { path: '/*', element: 'This Route Not Found : 404' }
       ]
     },
     {
