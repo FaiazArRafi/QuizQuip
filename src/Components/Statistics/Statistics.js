@@ -10,6 +10,7 @@ const Statistics = () => {
     return (
         <div >
             <div className='chart'>
+                <h5>Quiz Statistics</h5>
                 <LineChart width={500} height={400} data={data}>
                     <Line type="monotone" dataKey="total" stroke="#8884d8" />
                     <CartesianGrid strokeDasharray="3 3" />
